@@ -27,10 +27,6 @@ void swap_nodes(listint_t *temp_rev, listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void recursive_sort(int *array, int one, int end, size_t size);
-int separate(int *array, int one, int end, size_t size);
-void shell_sort(int *array, size_t size);
-void merge_sort(int *array, size_t size);
-void counting_sort(int *array, size_t size);
-int max_number(int *array, size_t size);
+int slit_arry(int *array, int one, int end, size_t size);
 
 #endif
